@@ -8,5 +8,11 @@ There are only 8 primitive types in Java. These include ```java byte```, ```java
 ```java byte``` is the smallest integer type in Java. This is a signed 8-bit type that has a range from –128 to 127. Infact all integer types in Java are signed in nature. There are no unsigned integer data types in Java. The designers of Java felt that unsigned integers were unnecessary. Variable of the ```java byte ``` data type are useful when working with a stream of data from a network or a file. For example, the following declares a byte variables called data.
 ```java 
 byte data;
-``` 
+```
+
+# Short
+```java short``` is a signed 16-bit type having range from –32,768 to 32,767. It is probably the least- used Java type. The following declares a variable of ```java short``` datatype called a.
+```java 
+short a;
+```
 
