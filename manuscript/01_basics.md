@@ -21,5 +21,9 @@ short a;
 ```java
 int count;
 ```
-
+# long
+```java long``` is a signed 64-bit type and is useful for those scenarios where an ```java int``` type is not large enough. The range of a ```java long``` is high and  makes it useful when large integers are needed for manupulation. The following declares a variable of ```java long``` datatype called bigNumber.
+```java
+long bigNumber;
+```
 
