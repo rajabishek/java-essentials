@@ -17,5 +17,9 @@ short a;
 ```
 
 # int
-```java int``` is the most commonly used integer type in Java. This is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. They are commonly used for the control loops and to index arrays. Lets say we have a smaller array to index, usually our assumption would be that the usage of ```java byte ``` or ```java short``` datatype would be more efficient, but this is not the case. The reason is that whenever byte and short values are used in an expression, they are promoted to ```java int``` when the expression is evaluated, this is called as type promotion. Therefore, ```java int``` is often the best choice when an integer is needed.
+```java int``` is the most commonly used integer type in Java. This is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. They are commonly used for the control loops and to index arrays. Lets say we have a smaller array to index, usually our assumption would be that the usage of ```java byte ``` or ```java short``` datatype would be more efficient, but this is not the case. The reason is that whenever byte and short values are used in an expression, they are promoted to ```java int``` when the expression is evaluated, this is called as type promotion. Therefore, ```java int``` is often the best choice when an integer is needed. The following declares a variable of ```java int``` datatype called count.
+```java
+int count;
+```
+
 
