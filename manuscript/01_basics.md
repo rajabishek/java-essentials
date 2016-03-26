@@ -34,8 +34,13 @@ float b;
 ```
 
 # double
-```java double``` is the double precision floating point type in Java that uses 64 bits of storage. When you need to maintain accuracy over many iterative calculations, or are manipulating large-valued numbers, ```java double``` is the best choice. The following declares a variable of ```java double``` datatype called pi. All math function in java like ```java sin()```, ```java cos()```, ```java sqrt()``` return ```java double``` values.
+```java double``` is the double precision floating point type in Java that uses 64 bits of storage. When you need to maintain accuracy over many iterative calculations, or are manipulating large-valued numbers, ```java double``` is the best choice. All math function in java like ```java sin()```, ```java cos()```, ```java sqrt()``` return ```java double``` values. The following declares a variable of ```java double``` datatype called pi.
 ```java
 double pi = 3.1416;
 ```
 
+# char
+Java uses Unicode to represent characters. Unicode defines a fully international character set that can represent all of the characters found in all human languages. ```java char``` is 16 bits in size with a range from 0 to 65,536. There are no negative chars. The following declares a variable of ```java char``` datatype called ch1.
+```java
+char ch1 = 'A';
+```
