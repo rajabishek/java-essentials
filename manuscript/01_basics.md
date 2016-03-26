@@ -27,3 +27,10 @@ int count;
 long bigNumber;
 ```
 
+# float
+```java float``` is the single precision floating point type in Java that uses 32 bits of storage. Variables of type float are useful when you need a fractional component, but don’t require a large degree of precision. The following declares a variable of ```java float``` datatype called b.
+```java
+float b;
+```
+
+
