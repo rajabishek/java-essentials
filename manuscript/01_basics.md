@@ -33,4 +33,9 @@ long bigNumber;
 float b;
 ```
 
+# double
+```java double``` is the double precision floating point type in Java that uses 64 bits of storage. When you need to maintain accuracy over many iterative calculations, or are manipulating large-valued numbers, ```java double``` is the best choice. The following declares a variable of ```java double``` datatype called pi. All math function in java like ```java sin()```, ```java cos()```, ```java sqrt()``` return ```java double``` values.
+```java
+double pi = 3.1416;
+```
 
