@@ -6,41 +6,41 @@ There are only 8 primitive types in Java. These include `byte`, `short`, `int`, 
 
 # byte
 `byte` is the smallest integer type in Java. This is a signed 8-bit type that has a range from –128 to 127. Infact all integer types in Java are signed in nature. There are no unsigned integer data types in Java. The designers of Java felt that unsigned integers were unnecessary. Variable of the `byte` data type are useful when working with a stream of data from a network or a file. For example, the following declares a byte variables called data.
-```java 
+```java
 byte data;
 ```
 
 # short
-```java short``` is a signed 16-bit type having range from –32,768 to 32,767. It is probably the least- used Java type. The following declares a variable of ```java short``` datatype called a.
-```java 
+`short` is a signed 16-bit type having range from –32,768 to 32,767. It is probably the least- used Java type. The following declares a variable of `short` datatype called a.
+```java
 short a;
 ```
 
 # int
-```java int``` is the most commonly used integer type in Java. This is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. They are commonly used for the control loops and to index arrays. Lets say we have a smaller array to index, usually our assumption would be that the usage of ```java byte ``` or ```java short``` datatype would be more efficient, but this is not the case. The reason is that whenever byte and short values are used in an expression, they are promoted to ```java int``` when the expression is evaluated, this is called as type promotion. Therefore, ```java int``` is often the best choice when an integer is needed. The following declares a variable of ```java int``` datatype called count.
+`int` is the most commonly used integer type in Java. This is a signed 32-bit type that has a range from –2,147,483,648 to 2,147,483,647. They are commonly used for the control loops and to index arrays. Lets say we have a smaller array to index, usually our assumption would be that the usage of `byte` or `short` datatype would be more efficient, but this is not the case. The reason is that whenever byte and short values are used in an expression, they are promoted to `int` when the expression is evaluated, this is called as type promotion. Therefore, `int` is often the best choice when an integer is needed. The following declares a variable of `int` datatype called count.
 ```java
 int count;
 ```
 # long
-```java long``` is a signed 64-bit type and is useful for those scenarios where an ```java int``` type is not large enough. The range of a ```java long``` is high and  makes it useful when large integers are needed for manupulation. The following declares a variable of ```java long``` datatype called bigNumber.
+`long` is a signed 64-bit type and is useful for those scenarios where an `int` type is not large enough. The range of a `long` is high and  makes it useful when large integers are needed for manupulation. The following declares a variable of `long` datatype called bigNumber.
 ```java
 long bigNumber;
 ```
 
 # float
-```java float``` is the single precision floating point type in Java that uses 32 bits of storage. Variables of type float are useful when you need a fractional component, but don’t require a large degree of precision. The following declares a variable of ```java float``` datatype called b.
+`float` is the single precision floating point type in Java that uses 32 bits of storage. Variables of type float are useful when you need a fractional component, but don’t require a large degree of precision. The following declares a variable of `float` datatype called b.
 ```java
 float b;
 ```
 
 # double
-```java double``` is the double precision floating point type in Java that uses 64 bits of storage. When you need to maintain accuracy over many iterative calculations, or are manipulating large-valued numbers, ```java double``` is the best choice. All math function in java like ```java sin()```, ```java cos()```, ```java sqrt()``` return ```java double``` values. The following declares a variable of ```java double``` datatype called pi.
+`double` is the double precision floating point type in Java that uses 64 bits of storage. When you need to maintain accuracy over many iterative calculations, or are manipulating large-valued numbers, `double` is the best choice. All math function in java like `sin()`, `cos()`, `sqrt()` return `double` values. The following declares a variable of `double` datatype called pi.
 ```java
 double pi = 3.1416;
 ```
 
 # char
-Java uses Unicode to represent characters. Unicode defines a fully international character set that can represent all of the characters found in all human languages. ```java char``` is 16 bits in size with a range from 0 to 65,536. There are no negative chars. The following declares a variable of ```java char``` datatype called ch1. The symbols can also be represented in unicode formar. We have to prefix the code value with \u while defining the character.
+Java uses Unicode to represent characters. Unicode defines a fully international character set that can represent all of the characters found in all human languages. `char` is 16 bits in size with a range from 0 to 65,536. There are no negative chars. The following declares a variable of `char` datatype called ch1. The symbols can also be represented in unicode formar. We have to prefix the code value with \u while defining the character.
 ```java
 char ch1 = 'A';
 ```
