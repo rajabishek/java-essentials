@@ -45,6 +45,18 @@ Java uses Unicode to represent characters. Unicode defines a fully international
 char ch1 = 'A';
 
 // Unicode for uppercase Greek omega character
-char uniChar = '\u039A'; 
+char uniChar = '\u039A';
 ```
+
+A character preceded by a backslash (\\) is an escape sequence and has special meaning to the compiler.
+
+The newline character (\n) has been used frequently in this tutorial in System.out.println() statements to advance to the next line after the string is printed.
+
+Following table shows the Java escape sequences:
+
+| Escape Sequence | Description                                    |
+| -------------   |:----------------------------------------------:|
+| \t              | Inserts a tab in the text at this point.       |
+| \b              | Inserts a backspace in the text at this point. |
+| \n              | Inserts a newline in the text at this point.   |
 
