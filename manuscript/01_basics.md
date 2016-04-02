@@ -43,5 +43,8 @@ double pi = 3.1416;
 Java uses Unicode to represent characters. Unicode defines a fully international character set that can represent all of the characters found in all human languages. `char` is 16 bits in size with a range from 0 to 65,536. There are no negative chars. The following declares a variable of `char` datatype called ch1. The symbols can also be represented in unicode format. We have to prefix the code value with \u while defining the character.
 ```java
 char ch1 = 'A';
+
+// Unicode for uppercase Greek omega character
+char uniChar = '\u039A'; 
 ```
 
