@@ -60,4 +60,4 @@ Following table shows the Java escape sequences:
 | \b              | Inserts a backspace in the text at this point.       |
 | \n              | Inserts a newline in the text at this point.   		 |
 | \r			  | Inserts a carriage return in the text at this point. |
-
+| \f			  | Inserts a form feed in the text at this point.       |
