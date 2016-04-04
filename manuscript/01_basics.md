@@ -62,3 +62,4 @@ Following table shows the Java escape sequences:
 | \r			  | Inserts a carriage return in the text at this point.       |
 | \f			  | Inserts a form feed in the text at this point.             |
 | \'			  | Inserts a single quote character in the text at this point.|
+| \"			  | Inserts a double quote character in the text at this point.|
