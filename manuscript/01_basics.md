@@ -65,7 +65,9 @@ Following table shows the Java escape sequences:
 | \"			  | Inserts a double quote character in the text at this point.|
 | \\			  | Inserts a backslash character in the text at this point.   |
 
+
 The wrapper class for character is `Character` that has a number of useful methods for manupulating with characters. Some of the methods are as follows.
+
 | Method Name     | Description                                                  |
 | --------------- |:------------------------------------------------------------:|
 | isLetter()      | Determines whether the specified char value is a letter.     |
