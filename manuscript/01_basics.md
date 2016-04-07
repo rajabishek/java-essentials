@@ -66,6 +66,16 @@ Following table shows the Java escape sequences:
 | \\			  | Inserts a backslash character in the text at this point.   |
 
 
+Below is an example of how we can use double quotes inside of a string.
+```java
+public class SampleClass {
+
+   public static void main(String args[]) {
+      System.out.println("Here is the double quoute: \"");
+   }
+}
+```
+
 The wrapper class for character is `Character` that has a number of useful methods for manupulating with characters. Some of the methods are as follows.
 
 | Method Name     | Description                                                  |
