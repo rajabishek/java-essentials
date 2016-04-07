@@ -1,1 +1,2 @@
 > - Generics are an integral part of Java programming.
+> - Through the use of generics, it is possible to create classes, interfaces, and methods that will work in a type-safe manner with various kinds of data.
