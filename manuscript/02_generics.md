@@ -6,3 +6,4 @@
 > - The Collections Framework defines several classes, such as lists and maps, that manage collections. A collection is a group of objects.
 > - The collection classes have always been able to work with any type of object. The benefit that generics added is that the collection classes can now be used with complete type safety.
 > - At its core, the term generics means parameterized types.
+> - They enable you to create classes, interfaces, and methods in which the type of data upon which they operate is specified as a parameter. Using generics, it is possible to create a single class, for example, that automatically works with different types of data.
