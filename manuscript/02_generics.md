@@ -9,3 +9,27 @@
 > - They enable you to create classes, interfaces, and methods in which the type of data upon which they operate is specified as a parameter. Using generics, it is possible to create a single class, for example, that automatically works with different types of data.
 > - A class, interface, or method that operates on a parameterized type is called generic, as in generic class or generic method.
 > - Java has always given you the ability to create generalized classes, interfaces, and methods by operating through references of type `Object`. Because `Object` is the superclass of all other classes, an `Object` reference can refer to any type object. Thus, in pre-generics code, generalized classes, interfaces, and methods used `Object` references to operate on various types of objects. The problem was that they could not do so with type safety.
+> - Generics added the type safety that was lacking.
+
+```java
+class GenericClass<T> {
+    T instance;
+    
+    GenericClass(T instance) {
+        this.instance = instance;
+    }
+    
+    T getInstance() {
+        return instance;
+    }
+    
+    void showType() {
+        System.out.println("Type of T is: " + instance.getClass().getName());
+    }
+}
+
+GenericClass<Integer> obj = new GenericClass<Integer>(20);
+int data = obj.getInstance();
+System.out.println("The data is: " + data);
+obj.showType();
+```
