@@ -33,3 +33,4 @@ int data = obj.getInstance();
 System.out.println("The data is: " + data);
 obj.showType();
 ```
+> - Although generics are similar to templates in C++, they are not the same. There are some fundamental differences between the two approaches to generic types.
