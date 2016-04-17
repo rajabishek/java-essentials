@@ -35,3 +35,4 @@ obj.showType();
 ```
 > - Although generics are similar to templates in C++, they are not the same. There are some fundamental differences between the two approaches to generic types.
 > - T is the name of a type parameter. This name is used as a placeholder for the actual type that will be passed to GenericClass when an object is created. Thus, T is used within GenericClass whenever the type parameter is needed.
+> - When declaring an instance of a generic type, the type argument passed to the type parameter must be a reference type. You cannot use a primitive type, such as int or char.
