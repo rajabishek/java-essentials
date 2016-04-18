@@ -15,3 +15,13 @@ class ClassName {
 > - The data, or variables, defined within a class without the static keyword are called instance variables because each instance of the class (that is, each object of the class) contains its own copy of these variables thus making the data for one object separate and unique from the data of another.
 > - The code is contained within methods.
 > - Collectively, the methods and variables defined within a class are called members of the class.
+
+```java
+class Box {
+    double width;
+    double height;
+    double depth;
+}
+Box box; //declare a variable that can refer to an instance of Box in memory
+box = new Box(); //dynamically allocates memory for a new instance of Box and return the reference
+```
