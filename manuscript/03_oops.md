@@ -35,3 +35,4 @@ In the above code the existing box variable is made to point to the newly create
 > - The class where the entry must start must have the `public static void main(String[] args)` method declaration.
 > - Instance variable can be accessed using the dot syntax, i.e `object.data`.
 > - An object reference in java is similar to a memory pointer in C/C++, but the main difference and the key to Java’s safety is that you cannot manipulate references as you can with actual pointers, this you cannot cause an object reference to point to an arbitrary memory location or manipulate it like an integer.
+> - When a member is declared static, it can be accessed before any objects of its class are created, and without reference to any object, like `className.data` or `className.methodName()` where `data` and `methodName` are `static` members.
