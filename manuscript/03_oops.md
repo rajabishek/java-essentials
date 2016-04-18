@@ -25,3 +25,8 @@ class Box {
 Box box; //declare a variable that can refer to an instance of Box in memory
 box = new Box(); //dynamically allocates memory for a new instance of Box and return the reference
 ```
+The box variable is pointing to the newly created Box instance in memory. Each time we do a `new Box()` we create a new instance in memory and a refrence to it is returned.
+```java
+box = new Box();
+```
+In the above code the existing box variable is made to point to the newly created instance and the previously created instance now doesn't have a variable refrencing it and therefore becomes eligible for garbage collection.
