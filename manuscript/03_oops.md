@@ -55,3 +55,4 @@ class HasStatic {
 > - Outside of the class in which they are defined, static methods and variables can be used independently of any object using `className.data` or `className.methodName()`
 > - Declaring a field as final prevents its contents from being modified, making it, essentially, a constant. Usually `final` fields are all named in capital letters separated by underscore.
 > - In addition to fields, both method parameters and local variables can be declared `final`.
+> - Declaring a parameter `final` prevents it from being changed within the method. Declaring a local variable `final` prevents it from being assigned a value more than once.
