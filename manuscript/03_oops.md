@@ -33,3 +33,4 @@ In the above code the existing box variable is made to point to the newly create
 > - A java file can have atmost have only 1 public class.
 > - The java file name must exactly match the name of the public class present in it.
 > - The class where the entry must start must have the `public static void main(String[] args)` method declaration.
+> - Instance variable can be accessed using the dot syntax, i.e `object.data`.
