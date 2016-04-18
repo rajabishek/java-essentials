@@ -9,3 +9,4 @@ class ClassName {
     }
 }
 ```
+> - Class is a template for an object, and an object is an instance of a class. Class essentially defines a new data type.
