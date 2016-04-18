@@ -30,3 +30,4 @@ The box variable is pointing to the newly created Box instance in memory. Each t
 box = new Box();
 ```
 In the above code the existing box variable is made to point to the newly created instance and the previously created instance now doesn't have a variable refrencing it and therefore becomes eligible for garbage collection.
+> - A java file can have atmost have only 1 public class.
