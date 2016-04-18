@@ -53,3 +53,4 @@ class HasStatic {
 ```
 > - Instance methods can however access the `static` methods and data directly.
 > - Outside of the class in which they are defined, static methods and variables can be used independently of any object using `className.data` or `className.methodName()`
+> - Declaring a field as final prevents its contents from being modified, making it, essentially, a constant. Usually `final` fields are all named in capital letters separated by underscore.
