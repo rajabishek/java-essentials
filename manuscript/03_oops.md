@@ -31,3 +31,4 @@ box = new Box();
 ```
 In the above code the existing box variable is made to point to the newly created instance and the previously created instance now doesn't have a variable refrencing it and therefore becomes eligible for garbage collection.
 > - A java file can have atmost have only 1 public class.
+> - The java file name must exactly match the name of the public class present in it.
