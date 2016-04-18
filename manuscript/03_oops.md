@@ -51,3 +51,4 @@ class HasStatic {
     }
 }
 ```
+> - Instance methods can however access the `static` methods and data directly.
