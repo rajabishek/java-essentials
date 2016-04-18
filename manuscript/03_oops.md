@@ -39,3 +39,15 @@ In the above code the existing box variable is made to point to the newly create
 > - `main(String[] args)` is declared as `static` because it must be called before any objects exist.
 > - Methods declared as `static` can only directly call other `static` methods and data, to call the instance variables or methods they will have to create an object of the same  class first and another restriction is that they cannot refer to `this` or `super` in any way.
 > - If you need to do computation in order to initialize your static variables, you can declare a static block that gets executed exactly once, when the class is first used either to create an instance to to access a static member.
+
+```java
+class HasStatic {
+    static int a = 3;
+    static int b;
+    
+    static {
+        System.out.println("Static block initialized.");
+        b = a * 4;
+    }
+}
+```
