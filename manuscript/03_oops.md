@@ -56,3 +56,4 @@ class HasStatic {
 > - Declaring a field as final prevents its contents from being modified, making it, essentially, a constant. Usually `final` fields are all named in capital letters separated by underscore.
 > - In addition to fields, both method parameters and local variables can be declared `final`.
 > - Declaring a parameter `final` prevents it from being changed within the method. Declaring a local variable `final` prevents it from being assigned a value more than once.
+> - When the keyword `final` is applied to methods then it means that this definition of the method is the final one, i.e we cannot override that method in its subclass.
