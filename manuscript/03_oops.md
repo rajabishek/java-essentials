@@ -57,3 +57,19 @@ class HasStatic {
 > - In addition to fields, both method parameters and local variables can be declared `final`.
 > - Declaring a parameter `final` prevents it from being changed within the method. Declaring a local variable `final` prevents it from being assigned a value more than once.
 > - When the keyword `final` is applied to methods then it means that this definition of the method is the final one, i.e we cannot override that method in its subclass.
+> - Arrays are implemented as objects in java, i.e why the `new` keyword is used while creating them.
+> - The number of elements that an array can hold—is found in its `length` instance variable.
+
+```java
+class ArraySample {
+    public static void main(String[] args) {
+        int a1[] = new int[10];
+        int a2[] = {1,2,3,4,5,6};
+        int a3[] = {4,3,2,1};
+        
+        System.out.println("The length of the array a1 is: " + a1.length);
+        System.out.println("The length of the array a2 is: " + a2.length);
+        System.out.println("The length of the array a3 is: " + a3.length);
+    }
+}
+```
