@@ -74,3 +74,4 @@ class ArraySample {
 }
 ```
 > - If no explicit constructor is specified, then Java will automatically supply a default constructor.
+> - Even if we specify one constructor on our own java will not supply the default constructor.
