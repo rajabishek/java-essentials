@@ -3,7 +3,7 @@ A simple definition of a class is given below.
 class ClassName {
     String var1;
     int var2;
-    
+
     String getVariable1() {
         return var1;
     }
@@ -44,7 +44,7 @@ In the above code the existing box variable is made to point to the newly create
 class HasStatic {
     static int a = 3;
     static int b;
-    
+
     static {
         System.out.println("Static block initialized.");
         b = a * 4;
@@ -66,7 +66,7 @@ class ArraySample {
         int a1[] = new int[10];
         int a2[] = {1,2,3,4,5,6};
         int a3[] = {4,3,2,1};
-        
+
         System.out.println("The length of the array a1 is: " + a1.length);
         System.out.println("The length of the array a2 is: " + a2.length);
         System.out.println("The length of the array a3 is: " + a3.length);
