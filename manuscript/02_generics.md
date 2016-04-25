@@ -14,15 +14,15 @@
 ```java
 class GenericClass<T> {
     T instance;
-    
+
     GenericClass(T instance) {
         this.instance = instance;
     }
-    
+
     T getInstance() {
         return instance;
     }
-    
+
     void showType() {
         System.out.println("Type of T is: " + instance.getClass().getName());
     }
